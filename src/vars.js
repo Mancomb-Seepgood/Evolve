@@ -1763,7 +1763,6 @@ export function clearStates(){
     global.stats.attacks = 0;
     global.stats.dkills = 0;
     global.stats.sac = 0;
-    global.settings.at = 0;
 
     global.settings.showEvolve = true;
     global.settings.showCiv = false;

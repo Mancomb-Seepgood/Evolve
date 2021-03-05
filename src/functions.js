@@ -84,10 +84,10 @@ export function gameLoop(act){
                 let timeDiff = dt - global.stats.current;
                 if (global.stats.hasOwnProperty('current') && (timeDiff >= 120000 || global.settings.at > 0)){
                     if (timeDiff >= 120000){
-                        global.settings.at += Math.floor(timeDiff / 3333);
+                        global.settings.at += Math.floor(timeDiff / 2500);
                     }
-                    if (global.settings.at > 11520){
-                        global.settings.at = 11520;
+                    if (global.settings.at > 34560){
+                        global.settings.at = 34560;
                     }
                 }
 
